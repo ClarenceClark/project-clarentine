@@ -1,5 +1,14 @@
 # Clarentine Calendar Changelog
 
+## Revision 0.3.0
+
+1. Introduce new relative dating system
+2. Clean up inconsistencies between dates starting at 0 and at 1
+3. Reorganise divisions of time into its own section
+4. Clarify wording on how omission of certain number groups should be interpreted
+5. Change formatting: sections are now h1 not h3
+6. Remove the hyphen as a separator
+
 ## Revision 0.2.0
 
 1. Replace duodecimal notation with decimal
