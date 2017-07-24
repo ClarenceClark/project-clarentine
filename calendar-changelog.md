@@ -1,5 +1,12 @@
 # Clarentine Calendar Changelog
 
+## Revision 0.4.0
+
+1. Rename _month/months_ to _cycle/cycles_
+2. Rename _year/years_ to _season/seasons_
+3. Change the examples to account for changes 1 and 2
+4. Change formatting: section headings are now h2 instead of h1
+
 ## Revision 0.3.0
 
 1. Introduce new relative dating system
