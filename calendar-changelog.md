@@ -1,5 +1,11 @@
 # Clarentine Calendar Changelog
 
+## Revision 1.0.0
+
+1. Relative dates notated by '+' or '-' instead of '-r' postfix
+2. Change wording to reflect that there will only be one separator
+3. Change date format so that _only_ the season number group may be omitted
+
 ## Revision 0.4.0
 
 1. Rename _month/months_ to _cycle/cycles_
