@@ -1,6 +1,6 @@
 # The Clarentine Calendar
 
-Current revision: 1.0.0
+Current revision: 1.0.1
 
 This is the formal specification for the Clarentine calendar. This document is a _work is progress_; it will change as feedback is incorporated.
 
@@ -42,7 +42,6 @@ All pronunciations shall follow the rules of Clarentine English Pronunciation (t
 	- `3.5.6` : Season 3, cycle 5, day 6
 	- `1234.07.08` : Season 1234, cycle 7, day 8
 	- `9.10.11` : Season 9, cycle 10, day 11
-	- `5` : Current season, current cycle, day 5
 	- `0.12.12`: Season 0, cycle 12, day 12
 	- `0.0.0`: Invalid date; cycle and day cannot be below 0
 

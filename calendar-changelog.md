@@ -1,5 +1,9 @@
 # Clarentine Calendar Changelog
 
+## Revision 1.0.1
+
+1. Remove incorrect example
+
 ## Revision 1.0.0
 
 1. Relative dates notated by '+' or '-' instead of '-r' postfix
