@@ -1,5 +1,11 @@
 # Clarentine Calendar Changelog
 
+## Revision 1.1.0
+
+1. Clarify that numbers denoting the cycle and the day may not be 0 _or below_
+2. Change heading to point to my website
+3. Fix grammatical mistakes
+
 ## Revision 1.0.1
 
 1. Remove incorrect example

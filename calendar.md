@@ -1,10 +1,8 @@
 # The Clarentine Calendar
 
-Current revision: 1.0.1
+Current revision: 1.1.0
 
-This is the formal specification for the Clarentine calendar. This document is a _work is progress_; it will change as feedback is incorporated.
-
-All pronunciations shall follow the rules of Clarentine English Pronunciation (the specification of which will be published later; it's still a work in progress).
+This is the formal specification for the Clarentine calendar, a calendar designed with the purpose of regularity and divisibility in time management. For more information, visit the author's website at [isaackhor.com][1].
 
 ## Section 1: Names and Definitions
 
@@ -13,17 +11,19 @@ All pronunciations shall follow the rules of Clarentine English Pronunciation (t
 3. All days, cycles, and seasons shall be named numerically, with the number corresponding to their position. For example:
 	- Day 1 -\> 1st day of the cycle
 	- Day 11 -\> 11th day of the cycle
-	- cycle 5 -\> 5th cycle of the season
+	- Cycle 5 -\> 5th cycle of the season
 
 ## Section 2: Time Divisions
 
 1. Time periods are divided into __divisions__.
 2. Divisions are as follows:
+
 		| Name | Plural | Composed of |
 		|:--|:--|:--|
 		| Day | Days | 1 UTC day |
 		| Cycle | Cycles | 12 days |
 		| Season | Seasons | 12 cycles |
+
 3. Examples:
 	- 42 days = 3 cycles, 6 days
 	- 1000 days = 6 seasons, 11 cycles, 4 days
@@ -37,13 +37,14 @@ All pronunciations shall follow the rules of Clarentine English Pronunciation (t
 5. A separator can be omitted if the number group to the left has been omitted as well.
 6. If less than three number groups are present in the date, the present groups of numbers are assumed to represent the least significant divisions, and omitted numbers are understood to represent the current time for the group's associated division.
 7. Only the season may be omitted for the sake of clarity; a standalone number is easily mistook as just another number as opposed to a date.
-8. Examples:
+8. The number groups denoting the cycle and the day cannot be 0 or below.
+9. Examples:
 	- `4.2` : Current season, cycle 4, day 2
 	- `3.5.6` : Season 3, cycle 5, day 6
 	- `1234.07.08` : Season 1234, cycle 7, day 8
 	- `9.10.11` : Season 9, cycle 10, day 11
 	- `0.12.12`: Season 0, cycle 12, day 12
-	- `0.0.0`: Invalid date; cycle and day cannot be below 0
+	- `0.0.0`: Invalid date; see #8
 
 ## Section 4: Relative Dates
 
@@ -58,3 +59,5 @@ All pronunciations shall follow the rules of Clarentine English Pronunciation (t
 	- `+4.6.12`: 4 seasons, 6 cycles, and 12 days in the future
 	- `+3.2`: 0 seasons, 3 cycles, and 2 days in the future
 	- `+4.1`: 0 seasons, 4 cycles, and 1 day in the future
+
+[1]:	https://isaackhor.com/
